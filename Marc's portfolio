@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc - Web Designer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marc - Web Designer</h1>
+        <nav>
+            <a href="#bio">Bio</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#elevator-pitch">Elevator Pitch</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="bio">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Marc, a passionate web designer. I specialize in creating visually appealing and user-friendly websites.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Check out my projects showcasing my web design skills.</p>
+        </div>
+    </section>
+
+    <section id="elevator-pitch">
+        <div class="container">
+            <h2>Elevator Pitch</h2>
+            <p>This section will feature my professional pitch soon.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: marc@example.com</p>
+            <p>LinkedIn: linkedin.com/in/marc</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Marc - Web Designer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
